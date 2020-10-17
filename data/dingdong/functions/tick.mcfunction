@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:wandering_trader,tag=!tcc.trader_entity,tag=!global.ignore] at @s run title @a[tag=!global.ignore.gui,distance=..48] actionbar [{"text":"A Wandering Trader is nearby!"}]
+execute as @e[type=minecraft:wandering_trader,tag=!tcc.trader_entity,tag=!global.ignore,predicate=dingdong:village_or_pillage] run function dingdong:village_or_pillage
