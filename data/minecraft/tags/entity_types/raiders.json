@@ -1,33 +1,13 @@
 {
     "replace": false,
     "values": [
-        "minecraft:blaze",
-        "minecraft:creeper",
-        "minecraft:drowned",
-        "minecraft:endermite",
-        "minecraft:enderman",
         "minecraft:evoker",
-        "minecraft:giant",
-        "minecraft:guardian",
-        "minecraft:elder_guardian",
-        "minecraft:illusioner",
-        "minecraft:piglin",
-        "minecraft:piglin_brute",
         "minecraft:pillager",
-        "minecraft:phantom",
         "minecraft:ravager",
-        "minecraft:silverfish",
-        "#minecraft:skeletons",
-        "minecraft:spider",
-        "minecraft:cave_spider",
-        "minecraft:vex",
         "minecraft:vindicator",
+        "minecraft:illusioner",
         "minecraft:witch",
-        "minecraft:wither",
-        "minecraft:zoglin",
-        "minecraft:zombie",
-        "minecraft:zombie_villager",
-        "minecraft:husk",
-        "minecraft:zombified_piglin"
+        "minecraft:wandering_trader",
+        "minecraft:bat"
     ]
 }

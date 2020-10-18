@@ -23,6 +23,6 @@
       }
     },
     "rewards": {
-      "function": "dingdong:summon_trader"
+      "function": "dingdong:advancement"
     }
   }
