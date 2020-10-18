@@ -4,3 +4,6 @@ function dingdong:tp_aesthetic
 
 # The player gets a delay tag
 tag @s add dingdong.belldelay
+
+# Grant an advancement
+advancement grant @s only dingdong:story/ring_my_bell
