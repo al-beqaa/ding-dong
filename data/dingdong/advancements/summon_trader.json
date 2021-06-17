@@ -16,7 +16,9 @@
           ],
           "location": {
             "block": {
-              "block": "minecraft:bell"
+              "blocks": [
+                "minecraft:bell"
+              ]
             }
           }
         }
