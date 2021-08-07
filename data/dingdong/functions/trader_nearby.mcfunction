@@ -1,0 +1,2 @@
+data modify storage abcl:storage temp.message set value { ClearImmediately: 1b, Message: '{"text":"A Wandering Trader is nearby!"}', Priority: 90 }
+execute as @a[tag=!global.ignore.gui,distance=..48] run function abcl:message/check
