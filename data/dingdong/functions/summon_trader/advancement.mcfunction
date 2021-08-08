@@ -1,4 +1,4 @@
 data modify storage abcl:storage temp.message set value { Message:'{"text":"The Trader doesn\'t want to do business with you right now."}', Priority: 1 }
-execute as @s[tag=!dingdong.belldelay,tag=!global.ignore] unless entity @e[type=minecraft:wandering_trader,tag=!tcc.trader_entity,distance=..48,tag=!global.ignore] run function dingdong:summon_trader
+execute as @s[tag=!dingdong.belldelay,tag=!global.ignore] unless entity @e[type=minecraft:wandering_trader,tag=!tcc.trader_entity,distance=..48,tag=!global.ignore] run function dingdong:summon_trader/spawn
 execute as @s[tag=dingdong.belldelay,tag=!global.ignore,tag=!global.ignore.gui] unless entity @e[type=minecraft:wandering_trader,tag=!tcc.trader_entity,distance=..48,tag=!global.ignore] run function abcl:message/check
 advancement revoke @s only dingdong:summon_trader

@@ -1,5 +1,5 @@
 # Increments the delay score of those who have summoned the trader
-execute as @a[tag=!global.ignore,tag=dingdong.belldelay] run function dingdong:increment_delay_score
+execute as @a[tag=!global.ignore,tag=dingdong.belldelay] run function dingdong:summon_trader/delay
 
 # Little teleport particles for the trader when they appear/disappear
 execute as @e[type=minecraft:wandering_trader,tag=!dingdong.appeared,tag=!global.ignore,tag=!tcc.trader_entity] at @s run function dingdong:tp_aesthetic
