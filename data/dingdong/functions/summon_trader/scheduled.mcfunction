@@ -1,2 +1,2 @@
 execute store result score $dingdong.temp dingdong.delay run time query gametime
-execute as @e[tag=abcl.scheduled] if score @s dingdong.delay = $dingdong.temp dingdong.delay run function dingdong:summon_trader/delay_end
+execute as @e[tag=dingdong.belldelay] if score @s dingdong.delay = $dingdong.temp dingdong.delay run function dingdong:summon_trader/delay_end
