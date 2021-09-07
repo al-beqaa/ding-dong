@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "dingdong:tick"
+        "dingdong:tick",
+        "abcl:tick"
     ]
 }
