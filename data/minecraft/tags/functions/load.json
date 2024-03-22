@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "dingdong:load",
-        "abcl:load"
+        "dingdong:load"
     ]
 }
